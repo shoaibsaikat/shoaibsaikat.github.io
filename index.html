@@ -17,7 +17,7 @@
     rel="stylesheet">
 </head>
 
-<body class="bg-secondary bg-opacity-25">
+<body class="bg-light">
   <div class="container default-font">
 
     <br>
@@ -27,15 +27,15 @@
         <div class="card-header-title">
           <div class="header-name" style="float: left;">Mina Shoaib Rahman</div>
           <div class="form-check form-switch" style="float: right;">
-            <label for="flexSwitch" class="card-footer-default"><span id="mode-name"
-                style="font-size: 18px;"><strong>Dark</strong></span></label>
+            <label for="flexSwitch" class="card-footer-default">
+              <span id="mode-name" style="font-size: 18px;"><strong>Dark</strong></span></label>
             <input class="form-check-input" type="checkbox" id="flexSwitch" onchange="onChanged()">
           </div>
         </div>
       </div>
     </div>
 
-    <div class="row">
+    <div id="left-pane" class="row">
       <!-- left pane -->
       <div class="col-xl-3">
         <!-- image -->
@@ -50,8 +50,8 @@
         </div>
 
         <!-- framework -->
-        <div class="row">
-          <div class="card px-0 text-dark mb-3 col-11 color-changer" style="background-color: #CCFFFF;">
+        <div class="row color-changer">
+          <div class="card px-0 text-dark mb-3 col-11">
             <div class="card-header card-header-default-title"><strong>Worked On</strong></div>
             <div class="card-body">
               <p class="card-text">
@@ -95,7 +95,8 @@
 
         <!-- social -->
         <div class="row">
-          <div class="card px-0 text-dark mb-3 col-11 color-changer multicolor-6" style="background-color: #CCFFFF;">
+          <div class="card px-0 mb-3 col-11 color-changer multicolor-6">
+
             <div class="card-header card-header-default-title"><strong>Connect with Me</strong></div>
             <div class="card-body">
               <p class="card-text">
@@ -122,7 +123,7 @@
       <!-- body -->
 
       <!-- about -->
-      <div class="col-xl-9">
+      <div id="details" class="col-xl-9">
         <div class="row">
           <div id="about-me" class="card px-0 text-dark bg-light mb-3">
             <div class="card-header card-header-default-title"><strong>About Me</strong></div>
@@ -249,7 +250,7 @@
 
         <!-- footer -->
         <div class="row">
-          <div id="copyright" class="card bg-secondary text-light mb-3 color-changer multicolor-1">
+          <div id="copyright" class="card mb-3 color-changer multicolor-1">
             <div class="card-body card-text para-default">
               &copy; Copyright protected by Mina Shoaib Rahman 2026
             </div>
