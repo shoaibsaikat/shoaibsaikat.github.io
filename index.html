@@ -1,209 +1,249 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mina Shoaib Rahman</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mina Shoaib Rahman</title>
 
-    <link rel="icon" href="./static/images/site_icon.png">
-    <link href="./static/css/style.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="icon" href="./static/images/site_icon.png">
+  <link href="./static/css/style.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
 </head>
-<body class="bg-secondary bg-opacity-25">
-    <div class="container default-font">
-        
-        <br>
-        <div class="row">
-          <!-- header -->
-          <div class="card text-dark bg-danger mb-3">
-            <div class="card-header-title">
-              <div class="header-name" style="float: left;">Mina Shoaib Rahman</div>
-              <div class="form-check form-switch" style="float: right;">
-                <label for="flexSwitch" class="card-footer-default"><span id="mode-name" style="font-size: 18px;"><strong>Dark</strong></span></label>
-                <input class="form-check-input" type="checkbox" id="flexSwitch" onchange="onChanged()">
-              </div>
-            </div>
 
+<body class="bg-secondary bg-opacity-25">
+  <div class="container default-font">
+
+    <br>
+    <div class="row">
+      <!-- header -->
+      <div class="card text-dark bg-danger mb-4">
+        <div class="card-header-title">
+          <div class="header-name" style="float: left;">Mina Shoaib Rahman</div>
+          <div class="form-check form-switch" style="float: right;">
+            <label for="flexSwitch" class="card-footer-default"><span id="mode-name"
+                style="font-size: 18px;"><strong>Dark</strong></span></label>
+            <input class="form-check-input" type="checkbox" id="flexSwitch" onchange="onChanged()">
           </div>
         </div>
-        
-        <div class="row">
-            <!-- left pane -->
-            <div class="col-xl-3">
-                <!-- image -->
-                <div class="row">
-                  <div id="profile-pic" class="card bg-transparent mb-3 col-11">
-                    <div class="text-center">
-                      <img class="rounded profile-pic" src="static/images/IMG_SAIKAT_KOREA.jpg" width="235px" height="155px" alt="Mina Shoaib Rahman">
-                    </div>
-                  </div>
-                  <div class="col-1"></div>
-                </div>
 
-                <!-- framework -->
-                <div class="row">
-                  <div class="card text-dark mb-3 col-11 color-changer" style="background-color: #CCFFFF;">
-                    <div class="card-header card-header-default-title"><strong>Major Framworks</strong></div>
-                    <div class="card-body">
-                      <p class="card-text">
-                        <ul>
-                          <li>Android</li>
-                          <li>.NET</li>
-                          <li>Django</li>
-                          <li>PHP</li>
-                          <li>RTOS</li>
-                        </ul>
-                      </p>
-                    </div>
-                  </div>
-                  <div class="col-1"></div>
-                </div>
-
-                <!-- social -->
-                <div class="row">
-                  <div class="card text-dark mb-3 col-11 color-changer multicolor-6" style="background-color: #CCFFFF;">
-                    <div class="card-header card-header-default-title"><strong>Know Me</strong></div>
-                    <div class="card-body">
-                      <p class="card-text">
-                        <ul>
-                          <li><a class="normal-link" href="https://github.com/shoaibsaikat" target="_blank">GitHub</a></li>
-                          <li><a class="normal-link" href="https://www.linkedin.com/in/shoaibsaikat/" target="_blank">LinkedIn</a></li>
-                          <li><a class="normal-link" href="https://x.com/shoaibsaikat96" target="_blank">X</a></li>
-                          <li><a class="normal-link" href="https://www.youtube.com/@KatMeIfYouCan96" target="_blank">Youtube</a></li>
-                        </ul>
-                      </p>
-                    </div>
-                  </div>
-                  <div class="col-1"></div>
-                </div>
-              
-            </div>
-
-            <!-- body -->
-
-            <!-- about -->
-            <div class="col-xl-9">
-              <div class="row">
-                <div id="about-me" class="card text-dark bg-light mb-3">
-                  <div class="card-header card-header-default-title"><strong>About Me</strong></div>
-                  <div class="card-body">
-                    <p class="card-text para-default body-font">
-                      I am a software developer at core. Worked for more than 8 years as a software developer. Currently working as a System Analyst in Bangladesh Economic Zones Authority.
-                      Previously worked for more than 6 years as an Engineer at Samsung R&D Institute Bangladesh Ltd. and 2 years at Relisource Technologies Ltd.<br><br>
-                      I also love travelling, reading a lot of books, cycling, playing games, doing personal programming project and specially spending my time in a productive way by trying to learn new things.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <!-- work history -->
-              <div class="row">
-                <div id="career-history" class="card text-dark bg-light mb-3">
-                  <div class="card-header card-header-default-title"><strong>Career History</strong></div>
-                  <div class="card-body" style="overflow-y: scroll; height: 500px;">
-                    <ol>
-                      <li>
-                        <h5 class="card-title para-header-default-title">System Analyst <em>(January 6, 2021 - Continuing)</em></h5>
-                        <p class="card-text para-default body-font">
-                          <strong class="title-font">(Bangladesh Economic Zones Authority)</strong><br><br>
-                          <em><u>Responsibilities:</u></em>
-                          <ol class="para-default body-font">
-                            <li>Managing IT section</li>
-                            <li>Managing server and network equipments</li>
-                            <li>Managing website and webservices</li>
-                          </ol>
-                        </p>
-                      </li>
-                      <li>
-                        <h5 class="card-title para-header-default-title">Lead Engineer <em>(July 16, 2018 - January 1, 2021)</em></h5>
-                        <p class="card-text para-default body-font">
-                          <strong class="title-font">(Samsung R&D Institute Bangladesh Ltd.)</strong><br><br>
-                          <em><u>Responsibilities:</u> </em>
-                          <ol class="para-default body-font">
-                            <li>Managing team</li>
-                            <li>Tizen based Samsung Galaxy Watch development</li>
-                            <li>FreeRTOS based Galaxy Gear Fit developement</li>
-                          </ol>
-                        </p>
-                      </li>
-                      <li>
-                        <h5 class="card-title para-header-default-title">Software Engineer <em>(July 1, 2016 - July 15, 2018)</em></h5>
-                        <p class="card-text para-default body-font">
-                          <strong class="title-font">(Relisource Technologies Ltd.)</strong><br><br>
-                          <em><u>Responsibilities:</u> </em><br>
-                          <ol class="para-default body-font">
-                            <li>Healthcare mobile application development using Xamarin Framework for Android phones</li>
-                            <li>Full stack development for web and desktop healthcare solution based on .Net Framework and AngularJs</li>
-                          </ol>
-                        </p>
-                      </li>
-                      <li>
-                        <h5 class="card-title para-header-default-title">Software Engineer <em>(March 18, 2013 - June 30, 2016)</em></h5>
-                        <p class="card-text para-default body-font">
-                          <strong class="title-font">(Samsung R&D Institute Bangladesh Ltd.)</strong><br><br>
-                          <em><u>Responsibilities:</u> </em><br>
-                          <ol class="para-default body-font">
-                            <li>IOTivity support for iOS</li>
-                            <li>Profiling and improvement of SmartFS in TizenRT</li>
-                            <li>Samsung Galaxy Gear Manager Notification Service for Android</li>
-                            <li>Developing games and apps for Samsung Smart TV in Javascript</li>
-                          </ol>
-                        </p>
-                      </li>
-                    </ol>
-                  </div>
-                </div>
-              </div>
-
-              <!-- certification -->
-              <div class="row">
-                <div id="my-certification" class="card text-dark bg-light mb-3">
-                  <div class="card-header card-header-default-title"><strong>Major Certifications</strong></div>
-                  <div class="card-body">
-                    <p class="card-text">
-                      <ul>
-                        <li>
-                          <a class="normal-link" href="https://www.udemy.com/certificate/UC-695e25cd-4629-4943-95fa-de8840c94551/" target="_blank">
-                            <span class="certification-text body-font">Python and Django Full Stack Web Developer Bootcamp</span>
-                          </a>
-                        </li>
-                        <li>
-                          <a class="normal-link" href="https://www.coursera.org/account/accomplishments/certificate/C82H5UE7MMSG" target="_blank">
-                            <span class="certification-text body-font">Machine Learning</span>
-                          </a>
-                        </li>
-                        <li>
-                          <a class="normal-link" href="https://www.coursera.org/account/accomplishments/certificate/7678UV8GU42M" target="_blank">
-                            <span class="certification-text body-font">Neural Networks and Deep Learning</span>
-                          </a>
-                        </li>
-                        <li>
-                          <a class="normal-link" href="https://www.coursera.org/account/accomplishments/certificate/PUTV3HP36YKA" target="_blank">
-                            <span class="certification-text body-font">Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization</span>
-                          </a>
-                        </li>
-                      </ul>
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <!-- footer -->
-              <div class="row">
-                <div id="copyright" class="card bg-secondary text-light mb-3 color-changer multicolor-1">
-                  <div class="card-body">
-                    <p class="card-text para-default">
-                      &copy; Copyright protected by Mina Shoaib Rahman 2021
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-        </div>
+      </div>
     </div>
-    <script src="./static/script/script.js" ></script>
+
+    <div class="row">
+      <!-- left pane -->
+      <div class="col-xl-3">
+        <!-- image -->
+        <div class="row">
+          <div id="profile-pic" class="card bg-transparent mb-3 col-11">
+            <div class="text-center">
+              <img class="rounded profile-pic" src="static/images/IMG_SAIKAT_KOREA.jpg" width="235px" height="155px"
+                alt="Mina Shoaib Rahman">
+            </div>
+          </div>
+          <div class="col-1"></div>
+        </div>
+
+        <!-- framework -->
+        <div class="row">
+          <div class="card text-dark mb-3 col-11 color-changer" style="background-color: #CCFFFF;">
+            <div class="card-header card-header-default-title"><strong>Worked On</strong></div>
+            <div class="card-body">
+              <p class="card-text">
+              <ul>
+                <li>AI and Data Engineering</li>
+                <li>Full Stack Development
+                  <ul>
+                    <li>Laravel</li>
+                    <li>Django</li>
+                    <li>.NET</li>
+                  </ul>
+                </li>
+                <li>Mobile App Development
+                  <ul>
+                    <li>Android</li>
+                    <li>iOS</li>
+                  </ul>
+                </li>
+                <li>RTOS
+                  <ul>
+                    <li>FreeRTOS</li>
+                    <li>TizenRT</li>
+                  </ul>
+                </li>
+              </ul>
+              </p>
+            </div>
+          </div>
+          <div class="col-1"></div>
+        </div>
+
+        <!-- social -->
+        <div class="row">
+          <div class="card text-dark mb-3 col-11 color-changer multicolor-6" style="background-color: #CCFFFF;">
+            <div class="card-header card-header-default-title"><strong>Connect with Me</strong></div>
+            <div class="card-body">
+              <p class="card-text">
+              <ul>
+                <li><a class="normal-link" href="https://github.com/shoaibsaikat" target="_blank">GitHub</a></li>
+                <li><a class="normal-link" href="https://www.linkedin.com/in/shoaibsaikat/" target="_blank">LinkedIn</a>
+                </li>
+                <li><a class="normal-link" href="https://x.com/shoaibsaikat96" target="_blank">X</a></li>
+                <li><a class="normal-link" href="https://www.youtube.com/@KatMeIfYouCan96" target="_blank">Youtube</a>
+                </li>
+              </ul>
+              </p>
+            </div>
+          </div>
+          <div class="col-1"></div>
+        </div>
+
+      </div>
+
+      <!-- body -->
+
+      <!-- about -->
+      <div class="col-xl-9">
+        <div class="row">
+          <div id="about-me" class="card text-dark bg-light mb-3">
+            <div class="card-header card-header-default-title"><strong>About Me</strong></div>
+            <div class="card-body">
+              <p class="card-text para-default body-font">
+                I am a software developer at core. Worked for more than 8 years as a software developer.
+                Currently working as a System Analyst in Bangladesh Economic Zones Authority and also doing my Masters
+                on AI and Data Engineering.<br><br>
+                Love travelling, reading books, cycling, gardening, playing games, doing personal project and spending
+                my time in a productive way by trying to learn new things.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- work history -->
+        <div class="row">
+          <div id="career-history" class="card text-dark bg-light mb-3">
+            <div class="card-header card-header-default-title"><strong>Job History</strong></div>
+            <div class="card-body" style="overflow-y: scroll; height: 500px;">
+              <ol>
+                <li>
+                  <h5 class="card-title para-header-default-title"><strong class="title-font">Bangladesh Economic Zones
+                      Authority</strong> <em>(January 2021 - Continuing)</em></h5>
+                  <p class=" card-text para-default body-font">
+                    <!-- <strong class="title-font">(Bangladesh Economic Zones Authority)</strong> -->
+                    <!-- <em><u>Responsibilities:</u></em> -->
+                  <ol class="para-default body-font">
+                    <li>Managing IT section</li>
+                    <li>Supervising IT projects</li>
+                    <li>Managing Network and IT equipment, firewall and server</li>
+                  </ol>
+                  </p>
+                </li>
+                <li>
+                  <h5 class="card-title para-header-default-title"><strong class="title-font">Samsung R&D Institute
+                      Bangladesh Ltd.</strong> <em>(July 2018 - January 2021)</em>
+                  </h5>
+                  <p class="card-text para-default body-font">
+                    <!-- <strong class="title-font">(Samsung R&D Institute Bangladesh Ltd.)</strong> -->
+                    <!-- <em><u>Responsibilities:</u> </em> -->
+                  <ol class="para-default body-font">
+                    <li>Managing team</li>
+                    <li>Tizen based Samsung Galaxy Watch Development</li>
+                    <li>FreeRTOS based Galaxy Gear Fit Development</li>
+                  </ol>
+                  </p>
+                </li>
+                <li>
+                  <h5 class="card-title para-header-default-title"><strong class="title-font">Relisource Technologies
+                      Ltd.</strong> <em>(July 2016 - July 2018)</em>
+                  </h5>
+                  <p class="card-text para-default body-font">
+                    <!-- <strong class="title-font">(Relisource Technologies Ltd.)</strong> -->
+                    <!-- <em><u>Responsibilities:</u> </em><br> -->
+                  <ol class="para-default body-font">
+                    <li>Healthcare mobile application development using .Net and Xamarin for Android Phones</li>
+                    <li>Full stack development for Web and Desktop Healthcare solutions based on .Net Framework</li>
+                  </ol>
+                  </p>
+                </li>
+                <li>
+                  <h5 class="card-title para-header-default-title"><strong class="title-font">Samsung R&D Institute
+                      Bangladesh Ltd.</strong> <em>(March 2013 - June 2016)</em>
+                  </h5>
+                  <p class="card-text para-default body-font">
+                    <!-- <strong class="title-font">(Samsung R&D Institute Bangladesh Ltd.)</strong> -->
+                    <!-- <em><u>Responsibilities:</u> </em><br> -->
+                  <ol class="para-default body-font">
+                    <li>Samsung IOTivity framework for iOS</li>
+                    <li>Profiling and improvement of SmartFS in TizenRT</li>
+                    <li>Samsung Galaxy Gear Manager Notification Service for Android</li>
+                    <li>Developing graphical JavaScript games and apps for Samsung Smart TV</li>
+                  </ol>
+                  </p>
+                </li>
+              </ol>
+            </div>
+          </div>
+        </div>
+
+        <!-- certification -->
+        <div class="row">
+          <div id="my-certification" class="card text-dark bg-light mb-3">
+            <div class="card-header card-header-default-title"><strong>Some Certifications</strong></div>
+            <div class="card-body">
+              <p class="card-text">
+              <ul>
+                <li>
+                  <a class="normal-link"
+                    href="https://www.udemy.com/certificate/UC-695e25cd-4629-4943-95fa-de8840c94551/" target="_blank">
+                    <span class="certification-text body-font">Python and Django Full Stack Web Developer
+                      Bootcamp</span>
+                  </a>
+                </li>
+                <li>
+                  <a class="normal-link"
+                    href="https://www.coursera.org/account/accomplishments/certificate/C82H5UE7MMSG" target="_blank">
+                    <span class="certification-text body-font">Machine Learning</span>
+                  </a>
+                </li>
+                <li>
+                  <a class="normal-link"
+                    href="https://www.coursera.org/account/accomplishments/certificate/7678UV8GU42M" target="_blank">
+                    <span class="certification-text body-font">Neural Networks and Deep Learning</span>
+                  </a>
+                </li>
+                <li>
+                  <a class="normal-link"
+                    href="https://www.coursera.org/account/accomplishments/certificate/PUTV3HP36YKA" target="_blank">
+                    <span class="certification-text body-font">Improving Deep Neural Networks: Hyperparameter Tuning,
+                      Regularization and Optimization</span>
+                  </a>
+                </li>
+              </ul>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- footer -->
+        <div class="row">
+          <div id="copyright" class="card bg-secondary text-light mb-3 color-changer multicolor-1">
+            <div class="card-body">
+              <p class="card-text para-default">
+                &copy; Copyright protected by Mina Shoaib Rahman 2026
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./static/script/script.js"></script>
 </body>
+
 </html>
